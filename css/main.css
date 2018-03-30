@@ -1,0 +1,276 @@
+body{
+	background-color: white;
+}
+											/**/
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-weight: bold;
+}
+.menu{
+  margin-top: 10px;
+}
+/* .menu-item{
+  margin: 0 10px;
+} */
+.div_menu .menu-item a{
+  font-size: 2.4vh;
+  font-weight: 600;
+  color:#454545;
+  text-decoration: none;
+	text-align: center;
+}
+
+.white_cont{
+	background-color: white;
+}
+.border_bottom{
+	border-bottom: 2px solid black;
+}
+.menu{
+	display: flex;
+}
+.phone{
+	color:#FF9000;
+	font-size:4vh;
+	font-weight:700;
+	white-space: nowrap;
+}
+.phone span{
+	font-size:2.2vh;
+	margin-top: -15px;
+	white-space: nowrap;
+}
+.div_menu .menu-item a:hover{
+	border-radius: 7px;
+	background-color:#454545;
+	color: white;
+}
+ .li_active{
+	 border: 1px solid #454545;
+	border-radius: 8px;
+}
+
+.previo_cont ,.c_ontent{
+	padding-top: 60px;
+	padding-left: 30px;
+}
+.str_dom_iz_srubov{
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 2.4vh;
+	color:#323131;
+}
+.nizk_ceni{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	font-size: 4vh;
+	font-weight: 700;
+	color: red;
+}
+
+.left_menu{
+		border: 2px solid #818181;
+		border-radius: 10px;
+}
+
+.left_menu .col-12{
+	margin: 0;
+	padding: 0;
+}
+.left_menu .menu-item a{
+	color: #454545;
+	font-size: 2.5vh;
+	font-weight: 500;
+
+}
+.left_menu .menu-item a:hover{
+	color: #9e9e9e
+}
+.left_menu .menu-item {
+	width: 100%;
+}
+p{
+	font-size: 2.15vh;
+	margin-bottom: 5%;
+}
+.first{
+	float: left;
+	padding-right: 15px;
+}
+.second{
+	float: right;
+	padding-left: 15px;
+}
+.footer {
+  border-top: 2px solid silver;
+  /* padding: 3%; */
+  /* margin-top: 5%; */
+  background-color: #363636;
+  font-size: 1.5em;
+  height: 100%;
+	 color: white;
+
+}
+.footer .col-12{
+	 text-align: center;
+}
+tr{
+	border-bottom: 1px solid silver;
+}
+table{
+		font-size: 2.0vh;
+}
+footer{
+	width: 100%;
+}
+.plo{
+	text-align: center;
+	color: #202020;
+		text-decoration: none;
+
+}
+a {
+	text-decoration: none;
+}
+
+@media (min-width:500px)and (max-width:800px) {
+		body{
+			background-color: white;
+		}
+	.phone span{
+		font-size:2vh;
+		margin-top: -15px;
+	}
+	h1{
+	font-size:2.5vh;
+	white-space: nowrap;
+	}
+	h3{
+	font-size:1.75vh;
+	font-weight: bold;
+	}
+	.phone {
+		font-size:3vh;
+		margin-top: -15px;
+	}
+	.left_menu .menu-item {
+		width: 100%;
+	}
+	.div_menu .menu-item{
+		width: 100%;
+	}
+}
+
+
+@media (min-width:500px)and(max-width:1025px) {
+body{
+	background-color: white;
+}
+	.phone span{
+		font-size:1vh;
+		margin-top: -15px;
+	}
+	h1{
+	font-size:2.5vh;
+	white-space: nowrap;
+	}
+	h3{
+	font-size:1.75vh;
+	font-weight: bold;
+	}
+	.phone {
+		font-size:0.75vh;
+		margin-top: -15px;
+	}
+	.nizk_ceni{
+		text-align: center;
+		padding-bottom: 40%;
+		margin-top: 0%;
+	}
+	.left_menu .menu-item {
+		font-size: 1.5vh;
+	}
+	.left_menu{
+		padding-left: -15px;
+	}
+	.c_ontent{
+			padding-left:0;
+	}
+	.left_menu .menu-item a{
+		font-size: 4vh;
+		padding-left: 5px;
+	}
+	.c_ontent{
+		margin-left: -35px;
+		padding-left: 0px;
+	}
+	/* .left_menu .menu-item {
+		width: 100%;
+		border: 1px solid red;
+	} */
+	.div_menu .menu-item{
+		width: 100%;
+
+	}
+	p {
+		font-size: 1.75vw;
+	}
+}
+@media (max-width:500px){
+	body{
+		background-color: white;
+	}
+	.phone span{
+		font-size:1.6vh;
+		margin-top: -15px;
+	}
+	.phone {
+		font-size:2.1vh;
+		margin-top: -15px;
+	}
+	.str_dom_iz_srubov{
+		font-size: 2.4vh;
+	}
+	h1{
+	font-size:1.9vh;
+	white-space: nowrap;
+	}
+	h3{
+	font-size:1.75vh;
+	font-weight: bold;
+	}
+	.left_menu .menu-item a{
+		font-size: 1.75vh;
+		white-space: nowrap;
+		padding-left: 5px;
+	}
+	.c_ontent{
+		margin-left: -35px;
+		padding-left: 0px;
+	}
+	.left_menu li{
+		font-size: 5px;
+	}
+	.c_ont{
+		padding-left: 0px;
+	}
+	.left_menu .menu-item {
+		width: 100%;
+
+	}
+	.div_menu .menu-item{
+		width: 100%;
+
+	}
+	p{
+		font-size: 2.5vw;
+	}
+table{
+	font-size: 2vw;
+}
+}
